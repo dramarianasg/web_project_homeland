@@ -2,9 +2,8 @@
     display: flex;
     flex-direction: column;
     position: relative;
-    box-sizing: border-box;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .intro__container {

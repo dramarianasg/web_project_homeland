@@ -3,7 +3,7 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap");
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz@0,14..32;1,14..32&display=swap');
 }
 
 @font-face {
@@ -11,5 +11,5 @@
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
-    src: url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap");
+    src: url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,900;1,14..32,900&display=swap');
 }
