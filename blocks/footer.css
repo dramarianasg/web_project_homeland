@@ -3,21 +3,19 @@
     position: relative;
     flex-direction: column;
     position: relative;
-    box-sizing: border-box;
-    height: 100vh;
-    width: 100%;
     background-color: #2A2C2F;
 }
 
 .footer__copyright {
+    display:flex;
+    justify-content: center;
     width: 194px;
     height: 16px;
-    font-family: inter;
+    margin: 92px 543px 24px 543px;
+    font-family: "Inter";
     font-weight: 400;
     font-size: 14px;
     line-height: 16px;
-    text-align: right;
+    text-align: center;
     color: #FFFFFF;
 }
-
-    
