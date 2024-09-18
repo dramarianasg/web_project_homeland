@@ -1,16 +1,18 @@
 .header {
+    background-color: #2A2C2F;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 100vh;
-    width: 100vw;
 }
 
 .logo {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 34px 512px auto 513px;
+    margin: 34px 512px 0 513px;
     width: 254.84px;
     height: 68.94px;
     opacity: 0px;
@@ -35,12 +37,12 @@
 }
 .header__lead {
     display: flex;
-    position: relative;
+    justify-content: center;
     flex-direction: column;
-    align-content: space-evenly;
-    margin: 160px 148px 831px 148px;
-    width: 984px;
-    height: 983px;
+    position: relative;
+    margin: 125px 148px auto 148px;
+    max-width: 984px;
+    max-height: 983px;
 }
 
 .header__title {
