@@ -1,34 +1,54 @@
+/*Contenedor para logo y título*/
 .header {
-    background-color: #2A2C2F;
     display: flex;
     flex-direction: column;
     position: relative;
 }
 
-.logo {
+.header__container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 34px 512px 0 513px;
+    margin-top: 34px;
     width: 254.84px;
     height: 68.94px;
-    opacity: 0px;
 }
 
-.gallery__logo{
+.header__logo{
     display: flex;
     justify-content: center;
     width: 32px;
     height: 32px;
-    margin: 0 111.42px 22px 111.42px;
-    opacity: 0px;
+    margin: auto;
 }
 
-.gallery__icon-title{
+.header__icon-title{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 254.84px;
     height: 14.94px;
-    top: 54px;
-    background-image: #FFFF;
+    margin: auto;
+}
+
+@media screen and (min-width: 1280px) {
+.header__container{
+    display: flex;
+    width: 100%;
+    gap: 22px;
+ }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+    .header__container{
+        display: flex;
+        width: calc(100%-10px)
+     }    
+}
+
+@media screen and (max-width: 768px) and (min-width: 320px) {
+    .header__container{
+        display: flex;
+        width: calc(100%-30px)
+     }    
 }
