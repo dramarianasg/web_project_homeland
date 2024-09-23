@@ -33,6 +33,9 @@
     padding-top: 64px;
 }
 
-.intro__container {
-
+.main__intro-container {
+    margin:auto;
+    max-width: 984px;
+    width: 100%;
+    padding-top: 92px;
 }
