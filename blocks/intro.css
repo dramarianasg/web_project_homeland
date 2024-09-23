@@ -1,51 +1,43 @@
 .intro {
     display: flex;
     flex-direction: column;
-    background-color: #2A2C2F;
+    justify-content: center;
 }
 
 .intro__lead {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    margin: 125px 148px auto 148px;
-    max-width: 984px;
-    max-height: 983px;
+    margin: auto;
+    width: 984px;
+    height: 983px;
+    padding-top: 91.06px;
     font-family: "Inter";
+    color: #FFFFFF;
+    text-align: center;
 }
 
 .intro__main-title {
-    display: flex;
-    justify-content: center;
-    margin: 0 132px 32px 132px;
-    max-width: 720px;
-    max-height: 200px;
+    margin: auto;
+    width: 720px;
+    height: 200px;
+    padding-bottom: 32px;
     font-size: 96px;
     font-weight: 900;
     line-height: 100px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .intro__main-subtitle {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    margin: 0 132px 64px 132px;
+    margin: auto;
     width: 720px;
     height: 72px;
     font-family: "Inter";
     font-size: 30px;
     font-weight: 400;
     line-height: 36px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .intro__main-image{
     width: 984px;
     height: 615px;
+    padding-top: 64px;
 }
 
 .intro__container {
@@ -104,14 +96,58 @@
     color: #FFFFFF;
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (max-width: 768px) {
+    .intro__lead {
+        margin: auto;
+        width: 720px;
+        height: 255px;
+    }
     
+    .intro__main-title {
+        margin: auto;
+        width: 530px;
+        height: 158px;
+        padding-top: 90px;
+    }
+    
+    .intro__main-subtitle {
+        padding-top: 30px;
+    }
+
+    .intro__main-image{
+        width: 768px;
+        height: 480px;
+    }
 }
 
-@media screen and (max-width: 1280px) and (min-width: 768px) {
+@media screen and (max-width: 320px) {
+    .intro__lead {
+        margin: auto;
+        width: 288px;
+        height: 144px;
+    }
     
-}
+    .intro__main-title {
+        margin: auto;
+        width: 288px;
+        height: 88px;
+        padding-top: 50px;
+        font-size: 40px;
+        line-height: 44px;
+    }
 
-@media screen and (max-width: 768px) and (min-width: 320px) {
-    
+    .intro__main-subtitle {
+        margin: auto;
+        width: 288px;
+        height: 40px;
+        padding-top: 16px;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .intro__main-image{
+        width: 320px;
+        height: 200px;
+        padding-top: 40px;
+    }
 }
