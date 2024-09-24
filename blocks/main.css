@@ -38,4 +38,44 @@
     max-width: 984px;
     width: 100%;
     padding-top: 92px;
+    align-items: flex-start;
+}
+
+.main__intro-title {
+    margin: 0;
+    max-width: 830px;
+    width: 100%;
+    font-size: 54px;
+    font-weight: 900;
+    line-height: 58px;
+}
+
+.main__intro-quote {
+    margin: 0;
+    padding-top: 40px;
+    max-width: 738px;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+}
+
+.main__quote-author {
+    max-width: 732px;
+    width: 100%;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: right;
+}
+
+.main__intro-description {
+    max-width: 722px;
+    width: 100%;
+    margin: 0;
+    padding-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
