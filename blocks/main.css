@@ -79,3 +79,32 @@
     font-weight: 400;
     line-height: 26px;
 }
+
+@media screen and (max-width:768px) {
+.main__title {
+    width: 90%;
+    font-size: 0.9rem;
+    line-height: 79px;
+}
+        
+.main__image {
+    max-width: 768px;
+    margin: 0;
+}
+}
+    
+@media screen and (max-width:320px) {
+.main__title {
+    width: 80%;
+    font-size: 0.8rem;
+}
+
+.main__subtitle {
+    width: 80%;
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+.main__image {
+    max-width: 320px;
+}
+}
