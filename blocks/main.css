@@ -31,6 +31,7 @@
     max-width: 984px;
     width: 100%;
     padding-top: 64px;
+    padding-left: 0;
 }
 
 .main__container {
