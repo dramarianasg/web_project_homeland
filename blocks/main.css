@@ -6,141 +6,181 @@
 
 .main__title {
     margin: auto;
-    padding-top: 90px;
+    padding-top: 91px;
     max-width: 720px;
     width: 100%;
-    font-size: 125px;
+    font-size: 96px;
     font-weight: 900;
-    line-height: 130px;
+    line-height: 100px;
     text-align: center;
 }
 
 .main__subtitle {
     margin: auto;
     padding-top: 32px;
-    max-width: 1000px;
+    max-width: 720px;
     width: 100%;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 400;
-    line-height: 60px;
+    line-height: 36px;
     text-align: center;
 }
 
 .main__image {
     margin: auto;
+    max-width: 984px;
     width: 100%;
     padding-top: 64px;
 }
 
 .main__intro-title {
     margin: 0;
-    width: 80%;
-    padding-top: 90px;
-    font-size: 85px;
+    max-width: 830px;
+    width: 100%;
+    padding-top: 92px;
+    font-size: 54px;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 58px;
 }
 
 .main__intro-quote {
     margin: 0;
     padding-top: 40px;
-    width: 70%;
-    font-size: 35px;
+    max-width: 738px;
+    width: 100%;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 45px;
+    line-height: 34px;
 }
 
 .main__quote-author {
     margin: 0;
-    width: 70%;
-    font-size: 35px;
+    padding-top: 10px;
+    max-width: 732px;
+    width: 100%;
+    font-size: 24px;
     font-weight: 400;
-    line-height: 40px;
+    line-height: 34px;
     text-align: right;
 }
 
 .main__intro-description {
     margin: 0;
     padding-top: 32px;
-    width: 65%;
-    font-size: 25px;
+    max-width: 722px;
+    width: 100%;
+    font-size: 16px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 26px;
 }
 
 @media screen and (max-width:768px) {
 .main__title {
-    width: calc(50% - 40px);
-    font-size: 90px;
-    line-height: 95px;
-    padding-top: 60px;
+    width: calc(100%-190px);
+    font-size: 75px;
+    line-height: 79px;
+    padding-top: 90px;
 }
     
 .main__subtitle {
-    margin: 0 auto;
-    padding-top: 30px;
-    width: 90%;
-    font-size: 40px;
-    line-height: 55px;
+    margin: 0;
+    padding: 25px 24px 30px 24px;
+    width: 100%;
+    font-size: 30px;
+    line-height: 36px;
 }
     
 .main__image {
-    padding-top: 64px;
+    width: 100%;
+    margin: 0;
 }
 
 .main__intro-title {
-    width: 90%;
-    padding-top: 90px;
-    font-size: 75px;
-    line-height: 80px;
+    max-width: 707px;
+    width: 100%;
+    padding: 90px 37px 0 24px;
+    font-size: 45px;
+    line-height: 49px;
 }
     
 .main__intro-quote {
-    padding-top: 40px;
+    padding: 50px 24px 0 24px;
+    max-width: 720px;
     width: 100%;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 24px;
+    line-height: 34px;
     }
     
 .main__quote-author {
+    max-width: 720px;
     width: 100%;
-    font-size: 30px;
-    line-height: 40px;
+    padding: 0 24px;
+    font-size: 24px;
+    line-height: 34px;
     text-align: right;
 }
     
-    .main__intro-description {
+.main__intro-description {
+    max-width: 720px;
     width: 100%;
-    font-size: 25px;
-    line-height: 30px;
+    padding: 32px 24px 0 24px;
+    font-size: 16px;
+    line-height: 26px;
 }
 }
     
 @media screen and (max-width:320px) {
 .main__title {
-    font-size: 60px;
-    line-height: 75px;
+    max-width: 228px;
+    width: 100%;
+    font-size: 40px;
+    line-height: 44px;
     padding-top: 50px;
 }
         
 .main__subtitle {
-    padding-top: 30px;
-    width: 95%;
-    font-size: 40px;
-    line-height: 55px;
+    padding: 16px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 20px;
 }
         
+.main__image {
+    width: 100%;
+    margin: 0;
+}
+    
 .main__intro-title {
-    width: 95%;
-    padding-top: 90px;
-    font-size: 40px;
-    line-height: 50px;
+    max-width: 288px;
+    width: 100%;
+    padding: 64px 16px 0 16px;
+    font-size: 32px;
+    line-height: 35px;
+}
+        
+.main__intro-quote {
+    padding: 40px 16px 0 16px;
+    max-width: 288px;
+    width: 100%;
+    font-size: 24px;
+    line-height: 30x;
     }
         
-.main__intro-quote, .main__quote-author, .main__intro-description {
-    padding-top: 40px;
-    width: 95%;
-    font-size: 30px;
-    line-height: 40px;
+.main__quote-author {
+    max-width: 288px;
+    width: 100%;
+    padding: 10px 16px 0 16px;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+}
+        
+.main__intro-description {
+    max-width: 288px;
+    width: 100%;
+    padding: 32px 16px 0 16px;
+    font-size: 16px;
+    line-height: 26px;
 }
 }

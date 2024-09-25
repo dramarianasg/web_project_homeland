@@ -19,3 +19,15 @@
     max-width: 255px;
     width: 100%;
 }
+
+@media screen and (max-width:320px) {
+.header__logo {
+    max-width: 23px;
+    width: 100%;
+}
+  
+.header__title {
+    max-width: 187px;
+    width: 100%;
+}
+}
