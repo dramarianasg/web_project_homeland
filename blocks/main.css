@@ -85,7 +85,7 @@
 
 @media screen and (max-width:768px) {
 .main__title {
-    width: calc(100%-190px);
+    max-width: 530px;
     font-size: 75px;
     line-height: 79px;
     padding-top: 90px;
@@ -94,7 +94,7 @@
 .main__subtitle {
     margin: 0;
     padding: 25px 24px 30px 24px;
-    width: 100%;
+    max-width: 720px;
     font-size: 30px;
     line-height: 36px;
 }
@@ -146,7 +146,6 @@
 @media screen and (max-width:320px) {
 .main__title {
     max-width: 228px;
-    width: 100%;
     font-size: 40px;
     line-height: 44px;
     padding-top: 50px;
@@ -155,7 +154,6 @@
 .main__subtitle {
     padding: 16px;
     max-width: 288px;
-    width: 100%;
     font-size: 16px;
     line-height: 20px;
 }
@@ -167,12 +165,10 @@
 
 .main__container {
     max-width: 288px;
-    width: 100%;
 }
 
 .main__intro-title {
     max-width: 288px;
-    width: 100%;
     padding: 64px 16px 0 16px;
     font-size: 32px;
     line-height: 35px;
@@ -181,14 +177,12 @@
 .main__intro-quote {
     padding: 40px 16px 0 16px;
     max-width: 288px;
-    width: 100%;
     font-size: 24px;
-    line-height: 30x;
-    }
+    line-height: 30px;
+}
         
 .main__quote-author {
     max-width: 288px;
-    width: 100%;
     padding: 10px 16px 0 16px;
     font-size: 24px;
     line-height: 34px;
@@ -197,7 +191,6 @@
         
 .main__intro-description {
     max-width: 288px;
-    width: 100%;
     padding: 32px 16px 0 16px;
     font-size: 16px;
     line-height: 26px;
