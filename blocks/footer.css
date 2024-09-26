@@ -1,10 +1,9 @@
 .footer {
     display: flex;
+    justify-content: center;
 }
 
 .footer__copyright {
-    display:flex;
-    justify-content: center;
     max-width: 194px;
     width: 100%;
     margin: auto;
@@ -24,7 +23,7 @@
 
 @media screen and (max-width:320px) {
 .footer__copyright {
-    padding-top: 88px;
+    padding-top: 64px;
     line-height: 14px;
 }
 }

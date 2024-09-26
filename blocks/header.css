@@ -2,7 +2,6 @@
 .header {
     display: flex;
     flex-direction: column;
-    position: relative;
     justify-content: center;
 }
 
@@ -15,19 +14,21 @@
 
 .header__title {
     margin: auto;
-    padding-top: 32px;
+    padding-top: 22px;
     max-width: 255px;
     width: 100%;
 }
 
 @media screen and (max-width:320px) {
 .header__logo {
-    max-width: 23px;
+    max-width: 24px;
     width: 100%;
+    padding-top: 20px;
 }
   
 .header__title {
     max-width: 187px;
     width: 100%;
+    padding-top: 16px;
 }
 }
