@@ -99,13 +99,14 @@
 @media screen and (max-width:768px) {
 .content__intro-title {
     max-width: 530px;
+    width: 100%;
     font-size: 75px;
     line-height: 79px;
     padding-top: 90px;
 }
         
 .content__intro-subtitle {
-    margin: 0;
+    margin: auto;
     padding-top: 25px;
     max-width: 720px;
     font-size: 30px;
@@ -115,7 +116,7 @@
         
 .content__intro-image {
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding-top: 30px;
 }
 
@@ -127,8 +128,9 @@
 
 .content__main-container {
     max-width: 720px;
-    width: 100%;
+    width: 95%;
     padding-top: 90px;
+    margin: auto;
 }
 
 .content__main-title {
@@ -186,7 +188,7 @@
             
 .content__intro-image {
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding-top: 40px;
 }
 
@@ -197,9 +199,10 @@
 }
 
 .content__main-container {
+    margin: auto;
     padding-top: 64px;
     max-width: 288px;
-    width: 100%;
+    width: 95%;
 }
 
 .content__main-title {
