@@ -42,7 +42,7 @@
 .content__main {
     display: flex;
     max-width: 984px;
-    width: 100%;
+    width: 95%;
     margin: auto;
     box-sizing: border-box;
 }
@@ -115,8 +115,7 @@
 }
         
 .content__intro-image {
-    width: 100%;
-    margin: auto;
+    margin: 0;
     padding-top: 30px;
 }
 
@@ -128,9 +127,9 @@
 
 .content__main-container {
     max-width: 720px;
-    width: 95%;
+    width: 90%;
     padding-top: 90px;
-    margin: auto;
+    margin: 0;
 }
 
 .content__main-title {
@@ -186,7 +185,7 @@
             
 .content__intro-image {
     width: 100%;
-    margin: auto;
+    margin: 0;
     padding-top: 40px;
 }
 

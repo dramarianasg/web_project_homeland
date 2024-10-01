@@ -13,6 +13,7 @@
 
 .photo-grid__item {
     width: 100%;
+    image-rendering: auto;
 }
 
 @media screen and (min-width:768px) {
@@ -20,6 +21,9 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin-top: 64px;
+    }
+    .photo-grid__item {
+        image-rendering: auto;
     }
 }
 
@@ -34,5 +38,6 @@
 
     .photo-grid__item {
         width: 100%;
+        image-rendering: auto;
     }
 }
