@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin: 0;
 }
 
 .content__intro {
@@ -98,6 +99,10 @@
 }
 
 @media screen and (max-width:768px) {
+.content{
+    margin: 0;
+}
+
 .content__intro-title {
     max-width: 530px;
     width: 100%;
@@ -117,6 +122,7 @@
         
 .content__intro-image {
     margin: 0;
+    width: 100%;
     padding-top: 30px;
 }
 
@@ -172,6 +178,7 @@
 @media screen and (max-width:320px) {
 .content__intro-title {
     max-width: 228px;
+    width: 90%;
     font-size: 40px;
     line-height: 44px;
 }
@@ -179,6 +186,7 @@
 .content__intro-subtitle {
     padding-top: 16px;
     max-width: 288px;
+    width: 90%;
     font-size: 16px;
     line-height: 20px;
     box-sizing: border-box;
