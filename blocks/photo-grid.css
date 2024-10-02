@@ -39,5 +39,6 @@
     .photo-grid__item {
         width: 100%;
         image-rendering: auto;
+        object-fit: cover;
     }
 }
