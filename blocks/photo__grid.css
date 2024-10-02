@@ -4,31 +4,31 @@
     padding: 0;
 }
 
-.photo-grid__container {
+.photo__grid-container {
     display: grid;
     flex-direction: column;
     gap: 12px;
     margin: 38px 16px 0 16px;
 }
 
-.photo-grid__item {
+.photo__grid-item {
     width: 100%;
     image-rendering: auto;
 }
 
 @media screen and (min-width:768px) {
-    .photo-grid__container {
+    .photo__grid-container {
         grid-template-columns: repeat(2, 1fr);
         gap: 16px;
         margin-top: 64px;
     }
-    .photo-grid__item {
+    .photo__grid-item {
         image-rendering: auto;
     }
 }
 
 @media screen and (min-width:1280px) {
-    .photo-grid__container {
+    .photo__grid-container {
         max-width: 1184px;
         grid-template-columns: repeat(4, 1fr);
         gap: 16px;
@@ -36,7 +36,7 @@
         margin: auto;
     }
 
-    .photo-grid__item {
+    .photo__grid-item {
         width: 100%;
         image-rendering: auto;
         object-fit: cover;
